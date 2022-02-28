@@ -21,7 +21,7 @@ class Home extends Component {
 						<span className='primary-text'>Hello, I'M <span className='highlighted-text'>Rohit</span> </span>
 						<div className='profile-details-role'>
 							<span className='primary-text'>
-								<h1 className='typical-h1'>
+								<h2 className='typical-h2'>
 									<Typical
 										loop = {Infinity}
 										steps = {[
@@ -35,7 +35,7 @@ class Home extends Component {
 											1200,
 										]}
 									/>
-								</h1>
+								</h2>
 							 </span>
 						</div>
 
