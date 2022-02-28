@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+.about-wrapper {
+
+}
+
+/*----------------------------- Heading -------------------------- */
+
+.heading-aboutme {
+    text-align: center;
+}
+
+.aboutme-tagline {
+    letter-spacing: 2px;
+    opacity: 80%;
+    margin-bottom: 1rem;
+}
+
+.main-line {
+    width: 20vw;
+    height: 3px;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.orange-dot {
+    background-color: rgb(255, 72, 0);
+    height: 10px;
+    width: 4rem;
+    border-radius: 100%;
+}
+
+/* ---------------------------------------------------------------------------- */
+
+.aboutme-card {
+    height: 70vh;
+    width: 70vw;
+    box-shadow: 0px 0px 4px ;
+    margin:2.2rem auto;
+    display: flex;
+}
+
+.left-div {
+    flex: 1;
+}
+
+.left-div > img {
+    height: 100%;
+    width: 100%;
+}
+
+.right-div {
+    flex: 1;
+    display: flex;
+    padding: 3rem;
+    flex-direction: column;
+    position: relative;
+}
+
+.description-aboutme {
+    justify-self: flex-start;
+    /* background-color: red; */
+    text-align: justify;
+    opacity: 80%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.btn-wrapper {
+    /* background-color: red; */
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.btn-about {
+    width: 8rem;
+    padding: 7px;
+    background-color: transparent;
+    color: #000000;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 2px;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-about:active {
+    transform: scale(1.1);
+}
+
+.btn-getcv {
+    background-color: rgb(255, 94, 0);
+    border: none;
+}
+
